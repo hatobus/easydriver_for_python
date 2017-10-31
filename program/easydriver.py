@@ -16,13 +16,13 @@ class stpmotor():
     def Drive(self, rpm):
         one_rot = 200
         l = rpm * one_rot
-        d = 30000/(2*float(l))
+        delay = 30/(2*float(l))
         steps = l/6 #rotato to 5 sec
         for x in range(1,steps):
             GPIO.output(24,GPIO.HIGH)
-            time.sleep(d/1000)
+            time.sleep(delay)
             GPIO.output(24,GPIO.LOW)
-            time.sleep(d/1000)
+            time.sleep(delay)
 
     def inv_Direction(self):
         GPIO.output(23, not GPIO.input(23))
