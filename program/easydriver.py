@@ -13,10 +13,9 @@ class stpmotor():
     def __init__(self):
         pass 
 
-    def Drive(self, speed):
+    def Drive(self, rpm):
         one_rot = 200
-        t=0
-        l = speed * one_rot
+        l = rpm * one_rot
         d = 30000/(2*float(l))
         steps = l/6 #rotato to 5 sec
         for x in range(1,steps):
