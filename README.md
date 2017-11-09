@@ -22,6 +22,7 @@ Connect example this.
 This table is diverted to [my blog](http://hatobus.hatenablog.jp/entry/2017/10/31/203757).
 
 This table using japanese.(Sorry :sweat_smile::sweat_smile::pray::pray::pray::pray:)
+
 | ピン名 | 用途 | 
 |:-----------:|:------------|
 | PWR IN (GND / M+)       | モータへ電源を供給する(Promote power supply) |
@@ -37,6 +38,7 @@ This table using japanese.(Sorry :sweat_smile::sweat_smile::pray::pray::pray::pr
 |APWR (SJ1)	|ここをショートさせると外部からA3967へVCCを給電できる (If this pin shorted, able to promote VCC to A3967 from outside. |
 |3V/5V (SJ2)|VCC設定。ショートさせると3.3V, オープンだと5Vになる (VCC setting if this pin shorted to 3.3V, open is 5V. )|
 |TP1|電流調整 (Adjustment to current.) |
+
 
 - For bipolar stepping motors
 - Input voltage is 8 V to 30 V (5 V system), 6.4 V to 30 V (3.3 V system)
